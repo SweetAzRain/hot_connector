@@ -1,8 +1,8 @@
-import { WalletManifest, WalletPermissions } from "../../types/wallet";
-import { WalletSelector } from "../../selector";
-import { AutoQueue } from "../../helpers/queue";
-import { parseUrl } from "../../helpers/url";
-import { uuid4 } from "../../helpers/uuid";
+import { WalletManifest, WalletPermissions } from "../types/wallet";
+import { WalletSelector } from "../selector";
+import { AutoQueue } from "../helpers/queue";
+import { parseUrl } from "../helpers/url";
+import { uuid4 } from "../helpers/uuid";
 
 import IframeExecutor from "./iframe";
 
