@@ -1,12 +1,12 @@
 import { FC, useEffect, useState } from "react";
-import { WalletSelector, WalletSelectorUI, NearWallet } from "../../src";
+import { WalletSelector, WalletSelectorUI, NearWallet } from "./";
 
-import "../../modal-ui.sass";
+import "./modal-ui.sass";
 import "./index.css";
 
-import manifest from "../public/repository/manifest.json";
+import manifest from ".repository/manifest.json";
 import { NetworkSelector } from "./form-component/NetworkSelector.tsx";
-import { Account } from "../../src/types/wallet.ts";
+import { Account } from "./types/wallet.ts";
 import { WalletActions } from "./WalletActions.tsx";
 
 const defaultNetwork = "testnet";
