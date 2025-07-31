@@ -1,4 +1,4 @@
-import { NearWallet } from "../../../src";
+import { NearWallet } from "./";
 
 export interface IPropsWalletAction {
   network: "testnet" | "mainnet";
