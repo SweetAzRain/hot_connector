@@ -1,5 +1,5 @@
-import { EventEmitter } from "../helpers/events";
-import { uuid4 } from "../helpers/uuid";
+import { EventEmitter } from "../../helpers/events";
+import { uuid4 } from "../../helpers/uuid";
 import getIframeCode from "./code";
 import SandboxExecutor from "./executor";
 
