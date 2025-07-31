@@ -1,4 +1,4 @@
-import { h, render } from "preact";
+import { h, render } from "react";
 import { WalletSelector } from "../selector";
 import { WalletModal } from "./WalletModal";
 
