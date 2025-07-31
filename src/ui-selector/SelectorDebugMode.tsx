@@ -1,4 +1,4 @@
-import { useState } from "preact/hooks";
+import { useState } from "react/hooks";
 import { WalletSelector } from "../selector";
 
 const SelectorDebugMode = ({ selector }: { selector: WalletSelector }) => {
