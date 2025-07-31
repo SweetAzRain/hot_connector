@@ -1,4 +1,4 @@
-import { useEffect, useState } from "preact/hooks";
+import { useEffect, useState } from "react/hooks";
 
 import { InjectedWallet } from "../wallets/InjectedWallet";
 import { WalletSelector } from "../selector";
