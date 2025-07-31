@@ -4,7 +4,7 @@ import { WalletSelector, WalletSelectorUI, NearWallet } from "./";
 import "./modal-ui.sass";
 import "./index.css";
 
-import manifest from ".repository/manifest.json";
+import manifest from "./repository/manifest.json";
 import { NetworkSelector } from "./form-component/NetworkSelector.tsx";
 import { Account } from "./types/wallet.ts";
 import { WalletActions } from "./WalletActions.tsx";
